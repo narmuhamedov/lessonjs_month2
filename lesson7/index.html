@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="app.js"></script>
+    <!-- <script defer src="callbacks.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-input">
+            <label for="cardHolderNameInput">Full name (on the card)</label>
+            <input type="text" id="cardHolderNameInput" placeholder="Holder name">
+        </div>
+        <div class="form-input">
+            <label for="cardNumberInput">Card number</label>
+            <input type="text" id="cardNumberInput" placeholder="Your card number" maxlength="16">
+        </div>
+        <div>
+            <div class="form-input">
+                <label for="cardExpirationMonthInput">Expiration</label>
+                <div class="expirationBlock">
+                    <input type="number" id="cardExpirationMonthInput" placeholder="MM" max="12" min="1">
+                    <input type="number" id="cardExpirationYearInput" placeholder="YYYY" max="9999" min="1900">
+                </div>
+            </div>
+            <div class="form-input">
+                <label for="cardNumberInput">CVV</label>
+                <input type="text" id="cardCodeInput" maxlength="3">
+            </div>
+        </div>
+        <button class="btn" id="checkBtn">Check card</button>
+    </div>
+    
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>

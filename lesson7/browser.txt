@@ -1,0 +1,54 @@
+
+
+
+
+// URL (URI) - Unified Resource Locator (Identifier)
+
+HTML - Hyper Text Markup Language
+
+http://127.0.0.1:5500/Lesson_6/
+http://127.0.0.1:5500/Lesson_6/bank-card.html
+https://lalafo.kg
+
+lalafo.kg -> 125.14.41.12
+
+http:// - протокол HTTP(S) - Hyper Text Transfer Protocol (Secured)
+127.0.0.1 - IP-адрес
+:5500 
+/Lesson_6/
+
+Web-server
+
+Клиент-серверное взаимодействие
+
+Рендеринг - отрисовка
+Парсинг - HTML -> JS объект (DOM)
+
+CSS DOM
+
+
+var document = {
+    head: {
+
+    },
+    body: {
+        children:[ 
+            {
+                tag: div,
+                classList : ["container"],
+                children: 
+            }
+        ]
+    },
+    querySelector(selectorText){
+        ...
+        return node;
+    }
+}
+
+V8 - JS Engine движок JS
+
+Cache - 
+
+html - 3.4 kB
+js - 1800 B -> 938 B

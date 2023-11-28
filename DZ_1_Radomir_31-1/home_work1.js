@@ -20,3 +20,8 @@ var UserName = prompt('Введите ваше имя:');
 var UserLastName = prompt('Введите вашу фамилию:');
 console.log('Приветсвуем вас, ' + UserName + ' ' + UserLastName + '!');
 document.write('Приветсвуем вас, ' + UserName + ' ' + UserLastName + '!')
+
+
+
+
+
